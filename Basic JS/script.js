@@ -1,4 +1,4 @@
-console.log("Hope, I'll be consistent and will try to enhance my skill time by time, InShaAllah :) ")
+console.log("Hope, I'll be consistent and will try to enhance my skills time by time, InShaAllah :) ")
 
 // chap 1 //
 // alert("AlertBox!")
@@ -111,6 +111,107 @@ var eg = 144; // int itSelf, but alert convert it into string!, this is on book,
     // }
 
 // chap 12 //
+
+
+// chap 13 //
+
+    // var weight = 302;
+    // var time = 5;
+    // var age = 18;
+    // gender  = "male"
+    // if(weight > 300 && time < 6 && age > 17 && gender === "male"){
+    //     console.log("chl Mera Bhai !");
+    // }else{
+    //     console.log("Nikal, pehli fursat ma!")
+    // }
+/*
+
+    if(15>25 || ("malea"=="male" && 5>4)){ // 15>25 || "malea"=="male" && 5>4 -- now
+        console.log("now")
+    }else{
+        console.log("maalik")
+    }
+*/
+// chap 13 //
+
+
+// chap 14 //
+    /*
+    var a=10;
+    var b=10;
+    var c=11;
+    var d=12;
+    var e=21;
+    var f=41;
+    var x=14;
+    var y=8;
+    var result;
+
+    if(a==b){
+        if(c==d){
+            result = 100
+            console.log(result)
+        }else if(e==f){
+            result = 100
+            console.log(result)
+        }else{
+            result = 50
+            console.log(result)
+        }
+    }else{
+        result = 50
+        console.log(result)
+    }
+    */
+// chap 14 //
+
+
+// chap 15 //
+/*
+    var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
+
+    console.log(cities[3])
+
+*/
+// chap 15 //
+
+
+// chap 16 //
+    /*
+    var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
+    cities.pop()
+    cities.pop()
+    console.log(cities)
+    cities.pop()
+    console.log(cities)
+    cities.pop()
+    cities.pop()
+    console.log(cities)
+    cities.push("Mumbai","Chennai","Banglore","Kolkata")
+    console.log(cities)
+    */
+
+
+// chap 16 //
+
+// chap 17 //
+/*
+var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
+console.log(cities)    
+// cities.splice(2,0)
+cities.splice(2,1,"lahore")
+// cities.splice(2)
+console.log(cities)    
+*/
+
+
+var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
+
+// var myCities =  cities.slice(0,4)
+var myCities =  cities.slice(3)
+console.log(myCities)
+
+// chap 17 //
 
 
 
