@@ -195,28 +195,167 @@ var eg = 144; // int itSelf, but alert convert it into string!, this is on book,
 // chap 16 //
 
 // chap 17 //
-/*
-var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
-console.log(cities)    
-// cities.splice(2,0)
-cities.splice(2,1,"lahore")
+
+// var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
+// console.log(cities)    
+// // cities.splice(2,0)
+// // cities.splice(2,1,"lahore")
 // cities.splice(2)
-console.log(cities)    
-*/
+// console.log(cities)    
 
 
-var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
 
-// var myCities =  cities.slice(0,4)
-var myCities =  cities.slice(3)
-console.log(myCities)
+// var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
+
+// // var myCities =  cities.slice(0,4)
+// var myCities =  cities.slice(3)
+// console.log(myCities)
 
 // chap 17 //
 
 
+// chap 20 //
+/*
+    for(var i=5;i>0;i--){
+        for(var j=5;j>=i;j--){
+            document.write("*")
+        }
+        document.write("<br>")
+    }
+*/
+// chap 20 //
+
+
+// chap 21 // 
+    // var userInput = prompt("Enter City", "Karachi") // KARACHI
+    // console.log(userInput.toUpperCase())
+    // var cities = ["islamabad","lahore","multan","pindi","kashmir","faislabad"];
+// chap 21 // 
+
+// chap 22 // 
+
+    // var cities = ["islamabad","lahore","multan","pindi","kashmir","faislabad"];
+    // var newArrOfCities =  cities.slice(1,4)
+    // console.log(cities)
+    // console.log(newArrOfCities
+    // var city = "karachi" // kaRachi;
+    // var eg = city.slice(2)
+    // console.log(eg)
+    // var letterR = city.slice(2,3).toUpperCase(); //R
+    // var city2 = city.slice(0,2) //ka
+    // var city3 = city.slice(3,7) //achi
+
+    // console.log(city2+letterR+city3)
+    // var ip = city.length;
+    // console.log(ip)
+
+// chap 22// 
+
+
+// chap 23 //
+
+    // var error = "Mjhy Neend Arhi ha, mjhy sona ha"
+    // for(var i = 0 ;i <error.length ;i++){
+    //     if(error.slice(i, i+4) === "sona" ) {
+    //         console.log("sona mil gya")
+    //     }
+    //     else{
+    //         console.log("nathi jammou")
+    //     }
+    // }
+
+    // var city = "karachi, The City Of Light" // kaRachi;
+
+    // var myINdex = city.indexOf("CitY")
+    // console.log(myINdex)
+// chap 23 // 
+
+// // chap 24 //
+
+//     var string = "javascript, learning programming";
+//     var progrm = string.indexOf('programming')
+//     console.log(progrm)
+//     var p = string.charAt(21)
+//     console.log(p)
+// // chap 24 //
+
+
+// test 
+
+// var someString = "Javascript learning"
+
+// for(var i = 0; i <someString.length; i++) {
+//     if(someString.slice(i,i+1) === " " ) {   
+//         console.log("koi mil gaya")
+        
+//     }
+//  else{
+//      console.log("kk")
+//  }
+// }
+
+// chap 25 //
+
+    // var someString = "Javascript learning sadasdas dasd65as d6as5d 6sa4d5as4d learning 86as4ds56a 0dsa56d4s0a 6d4s"
+
+    // console.log(someString)
+
+    // var eg =  someString.replace("learning","Earning");
+    // var newEGGLo =  someString.replace(/learning/g,"Earning");
+
+    // console.log(newEGGLo)
+    // console.log(eg)
+
+
+// chap 25 //
+
+
+// chap 26 //
+
+    // var num1 = 10.4; // 11 //10
+    // var asliNum = Math.round(num1)
+    // console.log(num1)
+    // console.log(asliNum)
+
+
+    // var num1 = 10.01; 
+    // var asliNum = Math.ceil(num1)
+    // console.log(num1)
+    // console.log(asliNum)
 
 
 
+// chap 26 //
+
+
+// // chap 27 //
+
+//     var random = Math.random()
+//     // 0.0 sy lekr 0.9
+//     var diceGameDecimalNum = random * 7;
+//     var diceGame = Math.floor(diceGameDecimalNum)
+//     console.log(diceGameDecimalNum)  
+//     console.log(diceGame)  
+
+// // chap 27 //
+
+
+// chap 28 //
+    // var userInput = prompt("EnterNum")
+    // var plus =  parseInt(userInput) + 10 + 10;
+    // // var plus =  parseFloat(userInput) + 10 + 10;
+    // console.log(plus)
+// chap 28 //
+
+
+// chap 30//
+
+    // var total = 10.19675;
+    // var prettyTotal = total.toFixed(2)
+    // console.log(total)
+    // console.log(prettyTotal)
+
+// chap 30// 
 
 
 
