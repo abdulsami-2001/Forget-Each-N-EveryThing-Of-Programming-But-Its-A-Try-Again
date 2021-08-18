@@ -7,7 +7,7 @@ console.log("Hope, I'll be consistent and will try to enhance my skills time by 
 
 // chap 2 //
 
-var name1 = "Abdul Sami";
+// var name1 = "Abdul Sami";
 // alert(name1);
 
 // chap 2 //
@@ -15,7 +15,7 @@ var name1 = "Abdul Sami";
 
 // chap 3 //
 
-var eg = 144; // int itSelf, but alert convert it into string!, this is on book, but now at aug 21 its not working any more
+// var eg = 144; // int itSelf, but alert convert it into string!, this is on book, but now at aug 21 its not working any more
 
 // alert(eg + 4)
 // alert(typeof(eg));
@@ -36,7 +36,7 @@ var eg = 144; // int itSelf, but alert convert it into string!, this is on book,
 
 // chap 6 //
 
-    var num  = 15;
+    // var num  = 15;
     // console.log(num) // 1
     // var newNum = num++;
     // console.log(newNum) // 1
@@ -126,7 +126,7 @@ var eg = 144; // int itSelf, but alert convert it into string!, this is on book,
     // }
 /*
 
-    if(15>25 || ("malea"=="male" && 5>4)){ // 15>25 || "malea"=="male" && 5>4 -- now
+    if(15>25 || ("malea"=="male" && 5>4)){ // 15>25 || "male"=="male" && 5>4 -- now
         console.log("now")
     }else{
         console.log("maalik")
@@ -198,16 +198,16 @@ var eg = 144; // int itSelf, but alert convert it into string!, this is on book,
 
 // var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
 // console.log(cities)    
-// // cities.splice(2,0)
-// // cities.splice(2,1,"lahore")
+// cities.splice(2,0)
+// cities.splice(2,1,"lahore")
 // cities.splice(2)
 // console.log(cities)    
 
 
 
-// var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
+var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
 
-// // var myCities =  cities.slice(0,4)
+// var myCities =  cities.slice(0,4)
 // var myCities =  cities.slice(3)
 // console.log(myCities)
 
@@ -233,18 +233,18 @@ var eg = 144; // int itSelf, but alert convert it into string!, this is on book,
 // chap 21 // 
 
 // chap 22 // 
-
-    // var cities = ["islamabad","lahore","multan","pindi","kashmir","faislabad"];
-    // var newArrOfCities =  cities.slice(1,4)
-    // console.log(cities)
-    // console.log(newArrOfCities
-    // var city = "karachi" // kaRachi;
-    // var eg = city.slice(2)
-    // console.log(eg)
-    // var letterR = city.slice(2,3).toUpperCase(); //R
-    // var city2 = city.slice(0,2) //ka
-    // var city3 = city.slice(3,7) //achi
-
+/*
+    var cities = ["islamabad","lahore","multan","pindi","kashmir","faislabad"];
+    var newArrOfCities =  cities.slice(1,4)
+    console.log(cities)
+    console.log(newArrOfCities)
+    var city = "karachi" // kaRachi;
+    var eg = city.slice(2) // rachi
+    console.log(eg)
+    var letterR = city.slice(2,3).toUpperCase(); //R
+    var city2 = city.slice(0,2) //ka
+    var city3 = city.slice(3,7) //achi
+*/
     // console.log(city2+letterR+city3)
     // var ip = city.length;
     // console.log(ip)
@@ -254,7 +254,7 @@ var eg = 144; // int itSelf, but alert convert it into string!, this is on book,
 
 // chap 23 //
 
-    // var error = "Mjhy Neend Arhi ha, mjhy sona ha"
+    // var error = "Mjhy Neend Arhi ha, mjhy sona ha" //detect sona in string
     // for(var i = 0 ;i <error.length ;i++){
     //     if(error.slice(i, i+4) === "sona" ) {
     //         console.log("sona mil gya")
@@ -266,7 +266,7 @@ var eg = 144; // int itSelf, but alert convert it into string!, this is on book,
 
     // var city = "karachi, The City Of Light" // kaRachi;
 
-    // var myINdex = city.indexOf("CitY")
+    // var myINdex = city.indexOf("CitY") // -1 for not found, it is case sensitive 
     // console.log(myINdex)
 // chap 23 // 
 
@@ -358,6 +358,79 @@ var eg = 144; // int itSelf, but alert convert it into string!, this is on book,
 // chap 30// 
 
 
+
+
+// chap 31// 
+
+   /* var date = new Date();
+    console.log(date)
+
+    console.log(typeof(date))
+    date = date.toString();
+    console.log(typeof(date))
+    console.log(date)
+
+    console.log(date.getDay()) //error cause datatype of date changed because of .toString(), do comnts game to flactuate
+*/
+// chap 31// 
+
+
+
+// chap 32// 
+    /*
+    var date = new Date();
+    var sinceJan = date.getTime()
+    var currentSec = date.getSeconds()
+    console.log(sinceJan)
+    console.log(currentSec)
+    */
+
+// chap 32// 
+
+
+
+
+// chap 33// 
+
+    // let todayDate = new Date(); // 18 Aug 2021
+    // let doomsDay = new Date("13 June,2024"); // The Day, github sy return hogi.
+    // console.log(todayDate.getTime())
+    // console.log(doomsDay.getTime())
+
+    // let diff = doomsDay - todayDate;
+
+    // let daysDiff = diff / (1000*60*60*24)
+    // console.log(Math.floor(daysDiff))
+
+// chap 33// 
+
+
+// chap 34// 
+    let todayDate = new Date(); // 18 Aug 2021
+
+    let setYear = todayDate.setFullYear(2001);
+    // console.log(todayDate)
+    // console.log(setYear)
+
+    // if (todayDate.getFullYear() == 2001){
+    //     console.log("Code 2001 ma chalega")
+    // }else{
+    //     console.log("Ma nhi jaounga, 2 saal ka kiraya dekar jaounga")
+    // }
+    
+    // Day set nhi hoskta, q kay us tareekh ko kya din ho or ap kuch de rhy ho ajeeb clash hojyega
+
+// chap 34// 
+
+
+
+
+// chap 35// 
+
+    
+
+
+// chap 35// 
 
 
 
