@@ -425,12 +425,44 @@ var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
 
 
 
-// chap 35// 
+// chap 39// 
+/*
+    console.log('Grade Calculator');
 
-    
+    let percentage = 33; 
+    console.log(Math.floor(percentage/10))
 
-
-// chap 35// 
+    switch(Math.floor(percentage/10)){
+        case 10:
+            console.log("Your Grade Is Top");
+            break;
+        case 9:
+            console.log("Your Grade Is A++");
+            break;
+        case 8:
+            console.log("Your Grade Is A+");
+            break;
+        case 7:
+            console.log("Your Grade Is A");
+            break;
+        case 6:
+            console.log("Your Grade Is B");
+            break;
+        case 5:
+            console.log("Your Grade Is C");
+            break;
+        case 4:
+            console.log("Your Grade Is D");
+            break;
+        case (percentage/10) > 3.2 ? 3: 77:
+            console.log("Your Grade Is E");
+            break;
+        default :
+            console.log("You're Fail")
+            break;
+    }
+*/
+// chap 39// 
 
 
 
