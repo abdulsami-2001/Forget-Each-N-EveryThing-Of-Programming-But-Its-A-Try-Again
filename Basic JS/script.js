@@ -461,11 +461,201 @@ console.log(cities)
 */
 // chap 39// 
 
+/*
+// chap 69// 
+
+    let  planOne = {
+        nameOfPlan: "Basic",
+        price: 5.99,
+        space: 100,
+        transfer: 10000,
+        pages:10,
+    }
+    
+    console.log(typeof(planOne));
+    console.log(planOne);
+
+    planOne.owners = ["Sam","Man","Zain"];
+    console.log(planOne)
+    
+    let indexCatching = planOne.owners[0];
+    console.log(indexCatching)
+
+// chap 69// 
+*/
+
+
+
+// chap 70// 
+/*
+    let  planOne = {
+        nameOfPlan: "Basic",
+        price: 5.99,
+        space: 100,
+        transfer: 10000,
+        pages:10,
+    }
+    
+    console.log(typeof(planOne));
+    console.log(planOne);
+
+    planOne.owners = ["Sam","Man","Zain"];
+    console.log(planOne)
+    
+    let indexCatching = planOne.owners[0];
+    console.log(indexCatching)
+
+    delete planOne.price;
+    console.log(planOne)
+    console.log(planOne.price) // undefined
+
+    let propertyExist = "price" in planOne
+    console.log(propertyExist)
+*/
+// chap 70// 
 
 
 
 
+// chap 71// 
+/*
+    let planOne = {
+        nameOfPlan: "Basic",
+        price: 5,
+        space: 100,
+        transfer: 10000,
+        pages:10,
+        dcMonth: [5,7,11],
+        calAnnual: function (dc){
+            let newPrice = this.price;
+            let thisMonth = new Date().getMonth();
+            for(i=0;i<this.dcMonth.length;i++){
+                if(this.dcMonth[i]==thisMonth){
+                    newPrice = this.price * dc;
+                    break;
+                }
+            }
+    
+            return newPrice*12
+            
+        },
+        // test: this.calAnnual(0.2)
+    }
+    // console.log(planOne.test)
 
+    console.log(planOne.calAnnual)
+    console.log(planOne.calAnnual(0.2))
+*/
+
+
+/*
+    let  planOne = {
+        nameOfPlan: "Basic",
+        price: 5,
+        space: 100,
+        transfer: 10000,
+        pages:10,
+        dcMonth: [5,7,11],
+    }
+
+    // console.log(planOne.calAnnu(0.8)) //error cause till now func isn't created
+
+    planOne.calAnnu = function (dc){
+        let newPrice = planOne.price;
+        let thisMonth = new Date().getMonth();
+        for(i=0;i<planOne.dcMonth.length;i++){
+            if(planOne.dcMonth[i]==thisMonth){
+                newPrice = planOne.price * dc;
+                break;
+            }
+        }
+
+        return newPrice*12
+        
+    }
+
+    console.log(planOne.calAnnu)
+
+
+*/
+
+// chap 71// 
+
+/*
+// chap 72// 
+
+    function Plan(name,price,dcMonth){ // constructor identified by the capatilized name of func, other (not officail) identity is we are not creating variables in it, like we create in a normal func
+        this.name = name;
+        this.price = price;
+        this.dcMonth = dcMonth
+    }
+
+    let plan1 = new Plan("Basic", 5,[7,8,9])
+    let plan2 = new Plan("Standard", 4,[1,4,6])
+    let plan3 = new Plan("Professional", 15,[9,10,11])
+
+    let obj = {
+        myName:'love',
+        price: 96,
+        dcMonth: [2,9,8]
+    }
+    
+    console.log(obj) // diff in clg
+    console.log(plan1)
+    console.log(plan2)
+    console.log(plan3)
+
+
+// chap 72// 
+*/
+
+
+// chap 73// 
+/*
+    function Plan(name,price,dcMonth){ 
+        this.name = name
+        this.price = price
+        this.dcMonth = dcMonth
+        this.annuMalik = function(dc){
+            let newPrice = this.price;
+            let thisMonth = new Date().getMonth();
+            for(i=0;i<this.dcMonth.length;i++){
+                if(this.dcMonth[i]==thisMonth){
+                    newPrice = this.price * dc;
+                    break;
+                }
+            }
+    
+            return newPrice*12
+        }
+    }
+
+    
+    let plan1 = new Plan("Basic", 5,[7,8,9])
+    let plan2 = new Plan("Standard", 4,[1,4,6])
+    let plan3 = new Plan("Professional", 15,[8,10,11])
+
+    console.log(plan1.annuMalik(0.2))
+    console.log(plan2.annuMalik(0.2))
+    console.log(plan3.annuMalik(0.2))
+    
+*/
+// chap 73// 
+
+// chap 74// 
+
+
+
+// chap 74// 
+
+
+
+
+// chap 75// 
+
+
+
+// chap 75// 
 
 
 
