@@ -15,8 +15,7 @@ console.log("Hope, I'll be consistent and will try to enhance my skills time by 
 
 // chap 3 //
 
-// var eg = 144; // int itSelf, but alert convert it into string!, this is on book, but now at aug 21 its not working any more
-
+// var eg = 144; // 
 // alert(eg + 4)
 // alert(typeof(eg));
 
@@ -126,7 +125,7 @@ console.log("Hope, I'll be consistent and will try to enhance my skills time by 
     // }
 /*
 
-    if(15>25 || ("malea"=="male" && 5>4)){ // 15>25 || "male"=="male" && 5>4 -- now
+    if(15>25 || ("malea"=="male" && 5>4)){ // 15>25 || "male"=="male" && 5>4 -- now // RN maalik
         console.log("now")
     }else{
         console.log("maalik")
@@ -195,17 +194,17 @@ console.log("Hope, I'll be consistent and will try to enhance my skills time by 
 // chap 16 //
 
 // chap 17 //
+/*
+var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
+// cities.splice(2,0)
+console.log(cities)    
+// cities.splice(2,1,"lahore")
+cities.splice(2) // e stands for Element no, when single entry means array store values till element no that provided.
+console.log(cities)    
+
+*/
 
 // var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
-// console.log(cities)    
-// cities.splice(2,0)
-// cities.splice(2,1,"lahore")
-// cities.splice(2)
-// console.log(cities)    
-
-
-
-var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
 
 // var myCities =  cities.slice(0,4)
 // var myCities =  cities.slice(3)
@@ -387,28 +386,26 @@ var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
 
 // chap 32// 
 
-
-
-
-// chap 33// 
-
-    // let todayDate = new Date(); // 18 Aug 2021
-    // let doomsDay = new Date("13 June,2024"); // The Day, github sy return hogi.
-    // console.log(todayDate.getTime())
-    // console.log(doomsDay.getTime())
-
-    // let diff = doomsDay - todayDate;
-
-    // let daysDiff = diff / (1000*60*60*24)
-    // console.log(Math.floor(daysDiff))
+/*
 
 // chap 33// 
 
+    let todayDate = new Date(); // 18 Aug 2021
+    let doomsDay = new Date("13 June,2024"); // The Day, github sy return hogi.
+    console.log(todayDate.getTime())
+    console.log(doomsDay.getTime())
+
+    let diff = doomsDay - todayDate;
+
+    let daysDiff = diff / (1000*60*60*24)
+    console.log(`Sam, Look The Number Of Days Left: ${Math.floor(daysDiff)}`);
+// chap 33// 
+*/
 
 // chap 34// 
-    let todayDate = new Date(); // 18 Aug 2021
+    // let todayDate = new Date(); // 18 Aug 2021
 
-    let setYear = todayDate.setFullYear(2001);
+    // let setYear = todayDate.setFullYear(2001);
     // console.log(todayDate)
     // console.log(setYear)
 
