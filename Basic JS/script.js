@@ -641,21 +641,118 @@ console.log(cities)
     
 */
 // chap 73// 
-
+/*
 // chap 74// 
 
+    function Plan(pName,price,dcMonth){
+        this.pName = pName;
+        this.price = price;
+        this.dcMonth = dcMonth
+    }
+
+    Plan.prototype.annuMalik = function(dc){
+        let bestPrice = this.price;
+        let currentMonth = new Date().getMonth();
+        for(i=0;i<this.dcMonth.length;i++){
+            if(currentMonth == this.dcMonth[i]){
+                bestPrice = this.price * dc
+                break;
+            }
+        }
+        return bestPrice * 12;
+    }
+
+    Plan.prototype.cancelable = true;
+
+    let plan1 = new Plan("Basic", 5,[2,8,4])
+    let plan2 = new Plan("Standard", 10,[8,9,10])
+    let plan3 = new Plan("Professional", 15,[8,1,10])
+    plan1.cancelable = false
+    console.log(plan1)
+    console.log(plan2)
+    console.log(plan3)
+
+    console.log(plan1.annuMalik(1))
+    console.log(plan2.annuMalik(1))
+    console.log(plan3.annuMalik(1))
+    
 
 
 // chap 74// 
+*/
 
+/*
+
+// chap 75// 
+
+    function Plan(pName,price,dcMonth){
+        this.pName = pName;
+        this.price = price;
+        this.dcMonth = dcMonth
+    }
+
+    Plan.prototype.annuMalik = function(dc){
+        let bestPrice = this.price;
+        let currentMonth = new Date().getMonth();
+        for(i=0;i<this.dcMonth.length;i++){
+            if(currentMonth == this.dcMonth[i]){
+                bestPrice = this.price * dc
+                break;
+            }
+        }
+        return bestPrice * 12;
+    }
+
+    Plan.prototype.cancelable = true;
+
+    let plan1 = new Plan("Basic", 5,[2,8,4])
+    let plan2 = new Plan("Standard", 10,[8,9,10])
+    let plan3 = new Plan("Professional", 15,[8,1,10])
+
+
+    let propOfObj = [];
+    let laterPropOfObj = [];
+    console.log(propOfObj)
+    console.log(laterPropOfObj)
+
+    for(let prop in plan1){
+        console.log(prop)
+        if(plan1.hasOwnProperty(prop)){
+            propOfObj.push(prop)
+        }else{
+            laterPropOfObj.push(prop)
+        }
+    }   
+
+    console.log(propOfObj)
+    console.log(laterPropOfObj)
 
 
 
 // chap 75// 
 
+*/
 
 
-// chap 75// 
+
+setTimeout(()=>{
+    console.log("hello")
+    window.open("https://www.youtube.com")
+}, 3000)
+
+// setInterval(()=>{
+//     console.log("hello 2")
+//     window.open("https://www.youtube.com")
+// }, 3000)
+
+
+
+
+
+
+
+
+
 
 
 
