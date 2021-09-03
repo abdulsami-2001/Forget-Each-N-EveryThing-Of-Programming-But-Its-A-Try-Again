@@ -1,0 +1,3 @@
+Hey, This Is Lorem Ipsum Text. It Means It Is A Dummy Text!
+
+Server par likha hva hai jub bi koi is url "./abc.txt" ko request/hit kre tou usko response main is address par jobi ho usko bhej dy

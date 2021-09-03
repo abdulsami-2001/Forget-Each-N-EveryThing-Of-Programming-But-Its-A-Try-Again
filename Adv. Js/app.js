@@ -126,3 +126,74 @@
     document.getElementById("btn").addEventListener("click",()=>clrIntervalFunc(++count, console.log(count)) )
         */
 // setInterval , clearInterval //
+
+// Fetch/Async Get Method //
+    /*
+    const fetchFunc = () =>{
+
+        let city = 'karachi'
+        
+        let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=de03dda5c930e12ab1bf5e3f97d561ed&units=metric`
+
+        let a = fetch(url).then((data)=>{
+            console.log(data)
+            // console.log(data.json())
+            return (data.json())
+        }).then((dt)=>{
+            console.log(dt)
+        })
+
+        console.log(a)
+    }
+    */
+
+    // async function myFunc() {
+    //     return 5
+    // }
+   
+    // myFunc().then((data)=>{
+    //     console.log(data)
+    // }).catch((err)=>{
+    //     console.log(err)
+    // })
+    
+    //above, below func ma farq itna ha ky, aik resolve hwa wa promise return kr rhy,
+    // or aik ma poora promise jo ky baaad ma resolve hoga, or usky liye aik extra .then lagega. 
+
+    // const myFunc = async () => {
+    //     return new Promise((res,rej)=>{
+    //         res(5)
+    //     })
+    // }
+    
+    // myFunc().then((da)=>{
+    //     console.log(da)
+    // })
+
+
+
+
+
+
+
+
+
+    // new eg
+
+        const newEg = async () => {
+            return 5
+        }
+
+        const driver = async () => {
+            let x = await newEg();
+            console.log(x)
+        }
+
+        driver()
+
+    // new eg
+
+
+
+   
+// Fetch/Async Get Method //
