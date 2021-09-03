@@ -81,3 +81,48 @@
 
 
 // Arrow Function //
+
+
+// SetTimeOut , ClearTimeOut //
+        /*
+    let timeOutId = setTimeout(() => {
+        document.getElementById("para").textContent += " Consistency"
+    }, 3000);
+
+    const clrTimeOutFunc = () => {
+        console.log("Clicked")
+        clearTimeout(timeOutId)
+    }
+    
+    document.getElementById("btn").addEventListener("click",clrTimeOutFunc )
+        */
+// SetTimeOut , ClearTimeOut //
+
+
+/*
+// setInterval , clearInterval //
+    let intervalId;
+    const call = () => {
+        intervalId = setInterval(() => {
+            document.getElementById("para").textContent += " Consistency"
+        }, 1000);
+    }
+        
+    call()
+    let count = 0;
+    console.log(count)
+
+    const clrIntervalFunc = (count) => {
+        if(count%2==0){
+            console.log(`Even Clicked ${count}`)
+            clearInterval(intervalId)
+        }else{
+            console.log(`Odd Clicked ${count}`)
+            clearInterval(intervalId)
+            call()
+        }
+    }
+    
+    document.getElementById("btn").addEventListener("click",()=>clrIntervalFunc(++count, console.log(count)) )
+        */
+// setInterval , clearInterval //
