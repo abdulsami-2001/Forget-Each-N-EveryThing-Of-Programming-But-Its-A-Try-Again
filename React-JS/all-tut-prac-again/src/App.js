@@ -14,14 +14,15 @@ import React,{ Component,Fragment} from 'react'
 
 // import Children from './Children 20/Childrens.component'
 
-
+// import StateWOConst from './ClassState 21/StateWOConst.component'
+import StateWConst from './ClassState 21/StateWConst.component'
 
 class App extends Component{
     
     render(){
-        const funcForChildren = (a) => {
-            return a
-        }
+        // const funcForChildren = (a) => {
+        //     return a
+        // }
 
 
         return(
@@ -46,6 +47,14 @@ class App extends Component{
                 {/* <PropTypeChecking name="Sam" sum={10+20}/> */}
                 
                 {/* <Children>{funcForChildren}</Children> */}
+
+                
+                {/* <StateWOConst rollNo={512} /> */}
+                <StateWConst rollNo={601} />
+                
+                
+                
+                
             </Fragment >
         )
     }
