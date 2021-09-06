@@ -3,7 +3,13 @@ import React,{Component,Fragment} from 'react'
 // import FuncBased from './Class-Func Comp 14/FuncBased.component'
 
 
-import Composing from './Composing Comp 15/Composing.component'
+// import Composing from './Composing Comp 15/Composing.component'
+
+
+// import JSX from './JSX 17/JSX.component'
+
+// import Props from './Props 18/Props.component'
+
 
 class App extends Component{
     render(){
@@ -16,11 +22,15 @@ class App extends Component{
                 {/* <CBasedComp textString="Class Based Component" /> */}
                 {/* <FuncBased textString="Function/Functional Based Component "/> */}
 
-                <Composing name="Sam"/>
+                {/* <Composing name="Sam"/>
                 <Composing name="Man"/>
                 <Composing name=" "/>
-                <Composing />
+                <Composing /> */}
 
+                {/* <JSX>Hellllooo</JSX> */}
+                
+                
+                {/* <Props name="Sam"/> */}
             </Fragment >
         )
     }
