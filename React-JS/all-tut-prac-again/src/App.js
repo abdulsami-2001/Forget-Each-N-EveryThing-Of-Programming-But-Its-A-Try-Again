@@ -15,18 +15,32 @@ import React,{ Component,Fragment} from 'react'
 // import Children from './Children 20/Childrens.component'
 
 // import StateWOConst from './ClassState 21/StateWOConst.component'
-import StateWConst from './ClassState 21/StateWConst.component'
+// import StateWConst from './ClassState 21/StateWConst.component'
+
+// import ClassEventWOArrow from './EventHandling 22/ClassEventWOArrow.component'
+// import ClassEventWArrow from './EventHandling 22/ClassEventWArrow.component'
+
+
+import FuncEvent from './EventHandling 22/FuncEvent.component'
+
+
+
+
+
+
+
 
 class App extends Component{
     
     render(){
         // const funcForChildren = (a) => {
-        //     return a
-        // }
+            //     return a
+            // }
 
 
         return(
-            <Fragment> {/* use this insted of <>, casue R.Fragment is supported in all brwsers */}
+            <Fragment> 
+                {/* use this insted of <>, casue R.Fragment is supported in all brwsers */}
                 {/* <h1>Again ReactJS Practice, It A Version 2</h1>
                 <h2>React Fragment Practice</h2> */}
 
@@ -50,11 +64,12 @@ class App extends Component{
 
                 
                 {/* <StateWOConst rollNo={512} /> */}
-                <StateWConst rollNo={601} />
+                {/* <StateWConst rollNo={601} /> */}
                 
+                {/* <ClassEventWOArrow/> */}
+                {/* <ClassEventWArrow/> */}
                 
-                
-                
+                <FuncEvent name="Sam"/>
             </Fragment >
         )
     }
