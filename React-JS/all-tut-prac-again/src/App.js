@@ -21,10 +21,12 @@ import React,{ Component,Fragment} from 'react'
 // import ClassEventWArrow from './EventHandling 22/ClassEventWArrow.component'
 
 
-import FuncEvent from './EventHandling 22/FuncEvent.component'
+// import FuncEvent from './EventHandling 22/FuncEvent.component'
 
 
 
+// import SetStateNOFunc from './SetState 23/SetStateNOFunc.component'
+import SetStateFunc from './SetState 23/SetStateFunc.component'
 
 
 
@@ -69,7 +71,11 @@ class App extends Component{
                 {/* <ClassEventWOArrow/> */}
                 {/* <ClassEventWArrow/> */}
                 
-                <FuncEvent name="Sam"/>
+                {/* <FuncEvent name="Sam"/> */}
+
+
+                {/* <SetStateNOFunc rollNo={3}/> */}
+                <SetStateFunc rollNo={3}/>
             </Fragment >
         )
     }
