@@ -26,9 +26,12 @@ import React,{ Component,Fragment} from 'react'
 
 
 // import SetStateNOFunc from './SetState 23/SetStateNOFunc.component'
-import SetStateFunc from './SetState 23/SetStateFunc.component'
+// import SetStateFunc from './SetState 23/SetStateFunc.component'
 
 
+// import CDM from './CDidMount 27/CDM.component'
+
+import GDSFP from './getDerivedStateFromProps 28/GDSFP.component'
 
 
 
@@ -38,10 +41,10 @@ class App extends Component{
         // const funcForChildren = (a) => {
             //     return a
             // }
-
-
-        return(
-            <Fragment> 
+            
+            
+            return(
+                <Fragment> 
                 {/* use this insted of <>, casue R.Fragment is supported in all brwsers */}
                 {/* <h1>Again ReactJS Practice, It A Version 2</h1>
                 <h2>React Fragment Practice</h2> */}
@@ -75,7 +78,15 @@ class App extends Component{
 
 
                 {/* <SetStateNOFunc rollNo={3}/> */}
-                <SetStateFunc rollNo={3}/>
+                {/* <SetStateFunc rollNo={3}/> */}
+                
+
+                {/* <CDM/> */}
+
+
+
+                <GDSFP/>
+
             </Fragment >
         )
     }
