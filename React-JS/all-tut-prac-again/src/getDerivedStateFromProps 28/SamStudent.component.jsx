@@ -10,11 +10,13 @@ class SamStudent extends Component {
     
     static getDerivedStateFromProps(props,state){
 
-        return{
-            newRollNo: props.rollNo
+        if(props.rollNo !==state.newRollNo){
+            return{
+                newRollNo: props.rollNo
+            }
+        }else{
+            return null
         }
-
-        // return null
     }
 
     render() {
