@@ -31,7 +31,7 @@ import React,{ Component,Fragment} from 'react'
 
 // import CDM from './CDidMount 27/CDM.component'
 
-import GDSFP from './getDerivedStateFromProps 28/GDSFP.component'
+// import GDSFP from './getDerivedStateFromProps 28/GDSFP.component'
 
 
 
@@ -85,7 +85,7 @@ class App extends Component{
 
 
 
-                <GDSFP/>
+                {/* <GDSFP/> */}
 
             </Fragment >
         )

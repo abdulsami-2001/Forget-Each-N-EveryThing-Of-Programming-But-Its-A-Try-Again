@@ -15,9 +15,22 @@ class SamStudent extends Component {
                 newRollNo: props.rollNo
             }
         }else{
-            return null
+            return null 
         }
     }
+
+    // shouldComponentUpdate(){
+
+    // }
+
+    // getSnapshotBeforeUpdate = (prevProps, prevState) => {
+        
+    // }
+    
+    componentDidUpdate(prevProps, prevState,snapshot) {
+        
+    }
+    
 
     render() {
         return (
