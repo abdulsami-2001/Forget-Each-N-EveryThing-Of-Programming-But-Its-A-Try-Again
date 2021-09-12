@@ -34,7 +34,7 @@ import React,{ Component,Fragment} from 'react'
 // import GDSFP from './getDerivedStateFromProps 28/GDSFP.component'
 
 
-import UseState from './useState 32/UseState.component'
+// import UseState from './useState 32/UseState.component'
 
 class App extends Component{
     
@@ -89,7 +89,7 @@ class App extends Component{
                 {/* <GDSFP/> */}
 
 
-                <UseState/>
+                {/* <UseState/> */} 
 
             </Fragment >
         )
