@@ -40,7 +40,7 @@ import React,{ Component,Fragment} from 'react'
 
 // import CustomHook from './Custom Hook 34/CustomHook.component'
 
-import CR from './Conditional Renderining 35/CR.component'
+// import CR from './Conditional Renderining 35/CR.component'
 
 
 
@@ -104,7 +104,7 @@ class App extends Component{
 
                 {/* <CustomHook/> */}
 
-                <CR isRegister={false} />
+                {/* <CR isRegister={true} /> */}
 
             </Fragment >
         )
