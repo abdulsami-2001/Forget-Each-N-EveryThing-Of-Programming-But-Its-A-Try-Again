@@ -36,15 +36,11 @@ import React,{ Component,Fragment} from 'react'
 
 // import UseState from './useState 32/UseState.component'
 
-
-
 // import UseEffect from './useEffect 33/UseEffect.component'
 
+// import CustomHook from './Custom Hook 34/CustomHook.component'
 
-
-import CustomHook from './Custom Hook 34/CustomHook.component'
-
-
+import CR from './Conditional Renderining 35/CR.component'
 
 
 
@@ -106,7 +102,9 @@ class App extends Component{
                 {/* <UseEffect/> */}
 
 
-                <CustomHook/>
+                {/* <CustomHook/> */}
+
+                <CR isRegister={false} />
 
             </Fragment >
         )
