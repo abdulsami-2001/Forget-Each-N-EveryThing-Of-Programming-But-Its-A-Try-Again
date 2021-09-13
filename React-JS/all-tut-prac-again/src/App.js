@@ -43,6 +43,7 @@ import React,{ Component,Fragment} from 'react'
 // import CR from './Conditional Renderining 35/CR.component'
 
 
+import List from './List 36/List.component'
 
 class App extends Component{
     
@@ -105,6 +106,8 @@ class App extends Component{
                 {/* <CustomHook/> */}
 
                 {/* <CR isRegister={true} /> */}
+
+                <List/>
 
             </Fragment >
         )
