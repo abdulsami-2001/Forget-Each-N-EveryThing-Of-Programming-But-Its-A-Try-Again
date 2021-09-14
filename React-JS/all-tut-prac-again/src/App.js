@@ -1,4 +1,5 @@
 import React,{ Component,Fragment} from 'react'
+import Test from './ExternalCSS 39/Test'
 // import CBasedComp from './Class-Func Comp 14/ClassBased.component'
 // import FuncBased from './Class-Func Comp 14/FuncBased.component'
 
@@ -44,10 +45,11 @@ import React,{ Component,Fragment} from 'react'
 
 // import List from './List 36/List.component'
 
-import Key from './Key 37/Key.component'
+// import Key from './Key 37/Key.component'
 
+// import InlineCSS from './Inline Css 38/InlineCSS.component'
 
-
+import XCSS from './ExternalCSS 39/XCSS.component'
 
 
 class App extends Component{
@@ -114,8 +116,12 @@ class App extends Component{
 
                 {/* <List/> */}
 
-                <Key/>
+                {/* <Key/> */}
 
+                {/* <InlineCSS/> */}
+
+                <XCSS/>
+                {/* <Test/>  */}
             </Fragment >
         )
     }
