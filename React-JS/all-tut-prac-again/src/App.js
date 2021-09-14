@@ -1,5 +1,4 @@
 import React,{ Component,Fragment} from 'react'
-import Test from './ExternalCSS 39/Test'
 // import CBasedComp from './Class-Func Comp 14/ClassBased.component'
 // import FuncBased from './Class-Func Comp 14/FuncBased.component'
 
@@ -49,7 +48,12 @@ import Test from './ExternalCSS 39/Test'
 
 // import InlineCSS from './Inline Css 38/InlineCSS.component'
 
-import XCSS from './ExternalCSS 39/XCSS.component'
+// import XCSS from './ExternalCSS 39/XCSS.component'
+// import Test from './ExternalCSS 39/Test'
+
+
+// import CSSModule from './Css Module 40/CSSModule.component'
+
 
 
 class App extends Component{
@@ -120,8 +124,13 @@ class App extends Component{
 
                 {/* <InlineCSS/> */}
 
-                <XCSS/>
+                {/* <XCSS/> */}
                 {/* <Test/>  */}
+
+
+
+                {/* <CSSModule/> */}
+
             </Fragment >
         )
     }
