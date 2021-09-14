@@ -60,9 +60,10 @@ import React,{ Component,Fragment} from 'react'
 
 // import TextArea from './Control Component 44/TextArea.component'
 
-import MultipleInputs from './Control Component 44/MultipleInputs.component'
+// import MultipleInputs from './Control Component 44/MultipleInputs.component'
 
 
+// import HandlingForm from './Control Component 44/HandlingForm.component'
 
 
 
@@ -168,7 +169,9 @@ class App extends Component{
 
                 {/* <TextArea/> */}
 
-                <MultipleInputs/>
+                {/* <MultipleInputs/> */}
+
+                {/* <HandlingForm/> */}
 
             </Fragment >
         )
