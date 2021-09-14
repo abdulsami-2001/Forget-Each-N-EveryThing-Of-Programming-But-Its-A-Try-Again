@@ -1,4 +1,5 @@
 import React,{ Component,Fragment} from 'react'
+import ImgNAss from './Assets 41/ImgNAss.component'
 // import CBasedComp from './Class-Func Comp 14/ClassBased.component'
 // import FuncBased from './Class-Func Comp 14/FuncBased.component'
 
@@ -130,6 +131,9 @@ class App extends Component{
 
 
                 {/* <CSSModule/> */}
+
+
+                <ImgNAss/>
 
             </Fragment >
         )
