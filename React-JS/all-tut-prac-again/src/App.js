@@ -1,5 +1,4 @@
 import React,{ Component,Fragment} from 'react'
-import ImgNAss from './Assets 41/ImgNAss.component'
 // import CBasedComp from './Class-Func Comp 14/ClassBased.component'
 // import FuncBased from './Class-Func Comp 14/FuncBased.component'
 
@@ -54,6 +53,35 @@ import ImgNAss from './Assets 41/ImgNAss.component'
 
 
 // import CSSModule from './Css Module 40/CSSModule.component'
+
+// import ImgNAss from './Assets 41/ImgNAss.component'
+
+// import Input from './Control Component 44/Input.component'
+
+import TextArea from './Control Component 44/TextArea.component'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -133,7 +161,11 @@ class App extends Component{
                 {/* <CSSModule/> */}
 
 
-                <ImgNAss/>
+                {/* <ImgNAss/> */}
+
+                {/* <Input/> */}
+
+                <TextArea/>
 
             </Fragment >
         )
