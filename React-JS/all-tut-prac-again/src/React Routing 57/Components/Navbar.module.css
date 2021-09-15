@@ -1,0 +1,24 @@
+.ULCont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: tomato;
+    color: white;
+}
+ 
+ul{
+    outline: none;
+}
+
+li{
+    
+    color: white;
+    list-style: none;
+    outline: none;
+
+}
+
+.aa{
+    text-decoration: none;
+}

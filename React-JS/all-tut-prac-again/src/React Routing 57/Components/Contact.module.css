@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    z-index: 0px;
+}
+.mainCont{
+    width: 100vw;
+    background-color: turquoise;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}

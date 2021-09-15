@@ -1,4 +1,10 @@
 import React,{ Component,Fragment} from 'react'
+import {BrowserRouter, Route,Switch} from 'react-router-dom'
+import Navbar from './React Routing 57/Components/Navbar.component'
+import Home from './React Routing 57/Components/Home.component'
+import About from './React Routing 57/Components/About.component'
+import Contact from './React Routing 57/Components/Contact.component'
+import Error from './React Routing 57/Components/Error.component'
 // import CBasedComp from './Class-Func Comp 14/ClassBased.component'
 // import FuncBased from './Class-Func Comp 14/FuncBased.component'
 
@@ -183,6 +189,24 @@ class App extends Component{
 
 
 
+
+
+
+
+
+
+
+                <BrowserRouter>
+                    <Navbar/>
+                    <Switch>
+                        {/* <Route path="/" render={()=><Home name="pass props" component={Contact} /> } /> */}
+                        <Route exact path="/" render={()=><Home /> } />
+                        <Route exact path="/about" render={()=><About /> } />
+                        <Route exact path="/contact" render={()=><Contact /> } />
+                        <Route component={Error} />
+                    </Switch>
+                </BrowserRouter>
+                
 
 
 
