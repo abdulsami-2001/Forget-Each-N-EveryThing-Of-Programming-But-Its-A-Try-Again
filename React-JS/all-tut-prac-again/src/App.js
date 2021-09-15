@@ -69,7 +69,7 @@ import React,{ Component,Fragment} from 'react'
 // import REF from './Uncontrolled Component 48/REF.component'
 
 
-import CallbackRef from './Uncontrolled Component 48/CallbackRef.component'
+// import CallbackRef from './Uncontrolled Component 48/CallbackRef.component'
 
 
 
@@ -178,7 +178,7 @@ class App extends Component{
                 {/* <REF/> */}
 
 
-                <CallbackRef/>
+                {/* <CallbackRef/> */}
 
 
 
