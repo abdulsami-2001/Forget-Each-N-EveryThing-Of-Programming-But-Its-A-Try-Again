@@ -66,8 +66,10 @@ import React,{ Component,Fragment} from 'react'
 // import HandlingForm from './Control Component 44/HandlingForm.component'
 
 
+// import REF from './Uncontrolled Component 48/REF.component'
 
 
+import CallbackRef from './Uncontrolled Component 48/CallbackRef.component'
 
 
 
@@ -172,6 +174,62 @@ class App extends Component{
                 {/* <MultipleInputs/> */}
 
                 {/* <HandlingForm/> */}
+
+                {/* <REF/> */}
+
+
+                <CallbackRef/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             </Fragment >
         )
