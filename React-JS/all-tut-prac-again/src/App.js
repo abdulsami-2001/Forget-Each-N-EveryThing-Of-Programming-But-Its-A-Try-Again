@@ -205,8 +205,8 @@ class App extends Component{
                         <Route exact path="/about" render={()=><About /> } />
                         <Route exact path="/contact" render={()=><Contact /> } />
                         <Route exact path="/posts" render={()=><Posts /> } />
-                        <Route exact path="/posts/:category" component={Posts}   />
-                        <Route exact path="/posts/:category/:id" component={Posts} />
+                        <Route exact path="/posts/:category" render={()=><Posts customProps="Category ma bi props" />}   />
+                        <Route exact path="/posts/:category/:id" render={()=><Posts customProps="id ma bi props" />} />
                         <Route component={Error} />
                     </Switch>
                 </BrowserRouter>

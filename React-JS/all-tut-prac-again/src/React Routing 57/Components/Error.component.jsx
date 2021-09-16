@@ -1,10 +1,13 @@
-import React,{useState,useEffect} from 'react'
-
+import React from 'react'
+// import {useEffect,useState} from 'react'
+import {useLocation} from 'react-router-dom'
 const Error = () => {
-    const [mount, setMount] = useState(false)
-    useEffect(() => {
-        setMount(true)
-    },[])
+    let location = useLocation();
+    console.log(location)
+    // const [mount, setMount] = useState(false)
+    // useEffect(() => {
+    //     setMount(true)
+    // },[])
     return (
         <div>
             <h1>No Page Found</h1>
