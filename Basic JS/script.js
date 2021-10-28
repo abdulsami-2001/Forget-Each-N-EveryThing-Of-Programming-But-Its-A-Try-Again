@@ -194,19 +194,19 @@ console.log("Hope, I'll be consistent and will try to enhance my skills time by 
 // chap 16 //
 
 // chap 17 //
-/*
+
 var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
 // cities.splice(2,0)
-console.log(cities)    
+// console.log(cities)    
 // cities.splice(2,1,"lahore")
-cities.splice(2) // e stands for Element no, when single entry means array store values till element no that provided.
-console.log(cities)    
+// cities.splice(2) // e stands for Element no, when single entry means array store values till element no that provided.
+// console.log(cities)    
 
-*/
+
 
 // var cities = ["karachi","isl","mul","faislabad","pindi","kashmir"]
 
-// var myCities =  cities.slice(0,4)
+// // var myCities =  cities.slice(0,4)
 // var myCities =  cities.slice(3)
 // console.log(myCities)
 
@@ -735,10 +735,10 @@ console.log(cities)
 
 
 
-setTimeout(()=>{
-    console.log("hello")
-    window.open("https://www.youtube.com")
-}, 3000)
+// setTimeout(()=>{
+//     console.log("hello")
+//     window.open("https://www.youtube.com")
+// }, 3000)
 
 // setInterval(()=>{
 //     console.log("hello 2")
