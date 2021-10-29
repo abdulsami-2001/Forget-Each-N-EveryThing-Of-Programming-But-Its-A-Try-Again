@@ -1,10 +1,12 @@
 import {configureStore} from '@reduxjs/toolkit'
-import counterReducer from '../MyComponents/Counter/sliceCounter'
-import themeReducer from '../MyComponents/Theme/Themeslice'
+import {setupListeners} from '@reduxjs/toolkit/query'
+import {postApi} from '../Component/Post/PostApi'
 
-export default configureStore({
+export const store = configureStore({
     reducer:{
-        counter:counterReducer,
-        theme:themeReducer
-    }
+        [postApi.reducerPath]:postApi.reducer
+    },
+    middleware:(getDefaultMiddleware)=>getDefaultMiddleware().concat(postApi.middleware)
 })
+
+setupListeners(store.dispatch)
