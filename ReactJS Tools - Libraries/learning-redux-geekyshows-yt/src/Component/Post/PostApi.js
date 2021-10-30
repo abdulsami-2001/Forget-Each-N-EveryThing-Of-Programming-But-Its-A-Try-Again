@@ -35,8 +35,37 @@ export const postApi = createApi({
                     
                 }
             }
+        }),
+        createPost: builder.mutation({
+            query:()=>{
+                return{
+                    url:"posts",
+                    method:"POST",
+                    body:{
+                        title:"Hey Sam",
+                        body:":))",
+                        userId:1
+                    },
+                    headers:{
+                        'Content-type':'application/json; charset=UTF-8'
+                    }
+                }
+            }
+        }),
+        updatePost:builder.mutation({
+            query:(updatedPost)=>{
+                const {id, ...data} = updatedPost
+                return{
+                    url:`posts/${id}`,
+                    method:"PUT",
+                    body:data,
+                    header:{
+                        'Content-Type':'application/json; charset=UTF-8'
+                    }
+                }
+            }
         })
     })
 })
 
-export const {useGetAllPostsQuery,useGetSinglePostByIdQuery, useGetLimitedPostsQuery,useDeletePostMutation} = postApi
+export const {useGetAllPostsQuery,useGetSinglePostByIdQuery, useGetLimitedPostsQuery,useDeletePostMutation,useCreatePostMutation,useUpdatePostMutation} = postApi
