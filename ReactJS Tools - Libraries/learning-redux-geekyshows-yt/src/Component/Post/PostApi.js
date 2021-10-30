@@ -6,13 +6,37 @@ export const postApi = createApi({
         baseUrl:"https://jsonplaceholder.typicode.com/"
     }),
     endpoints:(builder)=>({
-        getAllPost:builder.query({
+        getAllPosts:builder.query({
             query:()=>({
                 url:"posts",
                 method:"GET"
             })
+        }),
+        getSinglePostById: builder.query({
+            query:(id)=>{
+                return{
+                    url:`posts/${id}`,
+                    method:"GET"
+                }
+            }
+        }),
+        getLimitedPosts:builder.query({
+            query:(limit)=>{
+                return{
+                    url:`posts?_limit=${limit}`
+                }
+            }
+        }),
+        deletePost:builder.mutation({
+            query:(id)=>{
+                return{
+                    url:`posts/${id}`,
+                    method:"DELETE"
+                    
+                }
+            }
         })
     })
 })
 
-export const {useGetAllPostQuery} = postApi
+export const {useGetAllPostsQuery,useGetSinglePostByIdQuery, useGetLimitedPostsQuery,useDeletePostMutation} = postApi
